@@ -1,0 +1,16 @@
+package PRAK201.PRAK201_2110817310004_MuhammadUtiyaRaihan;
+
+public class PRAK201_MAIN {
+    public static void main(String[] args){
+        PRAK201_CLASS Arumanis = new PRAK201_CLASS("Arumanis",5000,0.3f,13);
+        PRAK201_CLASS Manalagi = new PRAK201_CLASS("Manalagi",7500,0.5f,17);
+        PRAK201_CLASS ManggaMadu = new PRAK201_CLASS("Mangga Madu",6500,0.375f,12);
+        
+        
+        Arumanis.resi();
+        System.out.println("");
+        Manalagi.resi();
+        System.out.println("");
+        ManggaMadu.resi();
+    }
+}
